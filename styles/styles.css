@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=Lobster&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.ok{
+    color: #562EFF
+    ;
+    font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+        background-color: #FFFFFF;
+        width: 870px;
+        padding: 30px;
+        margin-top: 3px;
+    }
+
+.player{
+
+    display: flex;
+    align-items: center;
+   
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+
+.player img{
+    height:56px ;
+    width: 56px;
+}
+.player-names{
+    margin-left: 16px;
+    font-size: 18px;
+}
